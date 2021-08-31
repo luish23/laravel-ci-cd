@@ -9,6 +9,7 @@ php:
 
 services:
   - apache2
+  - mysql
 
 before_script:
   - cp .env.example .env
